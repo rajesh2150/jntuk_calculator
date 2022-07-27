@@ -1,6 +1,6 @@
 
 print("Welcome to SPGA-CGPA Calculator")
-type1=int(input("Enter 1.For Percentage 2.For Ponits:"))
+type1=int(input("Enter 1.For Percentage 2.For Points:"))
 if type1==1:
     cgpa=float(input("Enter CGPA:"))
     if cgpa > 0 and cgpa <= 10.75:
